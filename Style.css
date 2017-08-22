@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+body
+{
+	margin: 0px;
+}
+header
+{
+	padding: 8px 0px 6 px 40 px;
+	background-color:black;
+	color:white;
+	height: 60px;	
+}
+header h1
+{
+	display: inline;
+	font-family: Sedgwick Ave Display;
+	font-size:40px;
+	float:left;
+	margin-top:0px;
+	margin-right: 20px;
+}
+nav ul
+{
+	display:inline;
+	float:left;
+	padding:0px;
+}
+nav ul li
+{
+	display:inline-block;
+	list-style-type: none;
+	color:white;
+	float:left;
+	margin-right: 15px;
+}
+nav ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+#nav
+{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+}
+.homered
+{
+	background-color: Red;
+	padding:30px 10px 40px 10px;
+}
+.divider
+{
+	background-color: red;
+	height:5px;
+}
+.homeblack:hover
+{
+	background-color:yellow;
+	padding:30px 10px 40px 10px;
+	color:black;
+}
+.homered:hover
+{
+	background-color:white;
+	padding:30px 10px 40px 10px;
+	color:Red;
+	transform: none;
+	transition: none;
+}
+.nortybackgroundimage
+{
+	background-image: url(http://cdn.designbeep.com/wp-content/uploads/2012/01/11.free-carbon-fiber-textures.jpg);
+	height:100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.socialmedia li a img
+{
+	height: 30px;
+	width: 30px;
+	margin-top:20px;
+	float:right;
+	display: inline-block;
+	list-style-type: none;
+}
+#social
+{
+	margin-left:700px;
+	margin-top: 5px;
+	padding:0px; 
+}
+.socialmedia .sociallink:hover
+{
+	background-image:white;
+	padding: 10px; 
+}
