@@ -95,3 +95,37 @@ nav ul li a
 	background-image:white;
 	padding: 10px; 
 }
+#poster
+{
+	width:40%;
+	height:40%;
+	margin-top: 20px;
+	margin-left: 40px;
+	display: inline-block;
+	border: grey 10px solid;
+}
+.subscribe .textfield
+{
+	padding: 0;
+	background-color: silver;
+	width: 80%;
+	margin-top:0px;
+}
+.subscribe .subbutton
+{
+	margin-top:0px;
+	padding:0px;
+	width:80%; 
+}
+.subscribe
+{
+	margin-top:20px;
+}
+.subscribe .subbutton:hover
+{
+	text-shadow:2px;
+}
+#information
+{
+	color:white;
+}

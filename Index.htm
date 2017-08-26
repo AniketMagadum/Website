@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <title>NortyNik||Homepage</title>
@@ -8,13 +9,13 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="application.js"></script>
 </head>
-<body>
+<body>	
 	<header>
 		<nav>
+		<div class="container-fluid">
 			<h1>NortyNik</h1>
 			<ul id="nav">
 				<li><a class="homered"href="#">Home</a></li>
@@ -27,12 +28,33 @@
 				<li><a href="" class="sociallink"><img src="https://www.sketchappsources.com/resources/source-image/twitterlogo_1x.png"></a></li>
 				<li><a href="" class="sociallink"><img src ="https://images.vexels.com/media/users/3/137425/isolated/preview/f2ea1ded4d037633f687ee389a571086-youtube-icon-logo-by-vexels.png"></a></li>				
 			</ul>
+			</div>
 		</nav>
 	</header>
-	<div class="divider">
+	<div class="container-fluid divider">
 	</div>
-	<div class="nortybackgroundimage">
-		
+	<div class="container-fluid nortybackgroundimage">
+		<div>
+		<img id =poster src="http://www.gamasutra.com/db_area/images/news/2013/Jan/185406/clash%20of%20clans%20long.jpg">
+		<img id =poster style=" margin-left:130px"src="https://d1s83tmo8l7caa.cloudfront.net/app/uploads/2016/09/20143426/clash-royale-promo-poster.jpg">
+		</div>
+		<div class="row">
+			<div class="col-xs-5">
+				<p id ="information" style="margin-left: 40px;text-align: center">Join millions of players worldwide as you build your village, raise a clan, and compete in epic Clan Wars!
+				Mustachioed Barbarians, fire wielding Wizards, and other unique troops are waiting for you!
+				</p>
+			</div>
+			<div class="col-xs-6">
+				<p id ="information" style="margin-left:145px;text-align:center">Enter the Arena! From the creators of Clash of Clans comes a real-time multiplayer game starring the Royales, your favorite Clash characters and much, much more.</p>
+			</div>
+		</div>
+		<center>
+					<form class=subscribe method="get" >
+				<input type="email" class="textfield" placeholder="Enter Your Mail id" style="text-align:center;border-style: solid white">
+				<button type="submit" class="btn btn-block btn-primary subbutton">Subscribe to Our Newsletter</button>
+			</form>
+			</center>
+		</div>
 	</div>
-</body>
-</html>
+	</body>
+	</html>
